@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+<result>	
+<ccbaKdcd>17</ccbaKdcd>
+<ccbaAsno>00110800</ccbaAsno>
+<ccbaCtcd>35</ccbaCtcd>
+<ccbaCpno>1273500110800</ccbaCpno>
+<longitude>0</longitude>
+<latitude>0</latitude>
+<item>	
+		<ccmaName><![CDATA[국가무형문화재]]></ccmaName>
+		<crltsnoNm>11-8</crltsnoNm>
+		<ccbaMnm1><![CDATA[남원농악]]></ccbaMnm1>
+		<ccbaMnm2><![CDATA[]]></ccbaMnm2>
+		<gcodeName><![CDATA[무형문화재]]></gcodeName>
+		<bcodeName><![CDATA[전통 공연·예술]]></bcodeName>
+		<mcodeName><![CDATA[음악]]></mcodeName>
+		<scodeName><![CDATA[]]></scodeName>
+		<ccbaQuan><![CDATA[]]></ccbaQuan>
+		<ccbaAsdt><![CDATA[20190902]]></ccbaAsdt>
+		<ccbaCtcdNm><![CDATA[전라북도 ]]></ccbaCtcdNm>
+		<ccsiName><![CDATA[남원시]]></ccsiName>
+		<ccbaLcad>
+			
+	         
+	             <![CDATA[전라북도  남원시]]>
+	         
+		</ccbaLcad>
+		<ccceName><![CDATA[]]></ccceName>
+		<ccbaPoss>
+                <![CDATA[]]>
+        </ccbaPoss>
+		<ccbaAdmin>
+               <![CDATA[남원농악보존회]]>
+		</ccbaAdmin>
+		<ccbaCncl><![CDATA[N]]></ccbaCncl>
+		<ccbaCndt><![CDATA[]]></ccbaCndt>
+		<imageUrl>2019090314092400.jpg</imageUrl>
+		<content><![CDATA[‘남원농악’은 전북 남원시 금지면 옹정리 일원에서 전승되는 농악으로 호남 좌도농악의 성격과 특징을 지니고 있다. 남원농악은 들당산굿, 마당밟이, 판굿으로 구성된 마을굿 특징과 더불어 걸립굿의 성격이 반영되어 있다. 특히 판굿의 뒷굿(도둑잽이, 재능기) 구성이 특이하며 호남 좌도농악에서만 사용하는 부들상모를 전승자들이 현재에도 직접 제작하여 연행하고 있다.]]></content>
+</item>	
+</result>

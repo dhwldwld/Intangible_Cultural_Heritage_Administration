@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+<result>	
+<ccbaKdcd>17</ccbaKdcd>
+<ccbaAsno>00590000</ccbaAsno>
+<ccbaCtcd>11</ccbaCtcd>
+<ccbaCpno>1271100590000</ccbaCpno>
+<longitude>0</longitude>
+<latitude>0</latitude>
+<item>	
+		<ccmaName><![CDATA[국가무형문화재]]></ccmaName>
+		<crltsnoNm>59</crltsnoNm>
+		<ccbaMnm1><![CDATA[판소리고법]]></ccbaMnm1>
+		<ccbaMnm2><![CDATA[판소리鼓法]]></ccbaMnm2>
+		<gcodeName><![CDATA[무형유산]]></gcodeName>
+		<bcodeName><![CDATA[전통연행]]></bcodeName>
+		<mcodeName><![CDATA[음악]]></mcodeName>
+		<scodeName><![CDATA[민속음악]]></scodeName>
+		<ccbaQuan><![CDATA[]]></ccbaQuan>
+		<ccbaAsdt><![CDATA[19780202]]></ccbaAsdt>
+		<ccbaCtcdNm><![CDATA[서울특별시 ]]></ccbaCtcdNm>
+		<ccsiName><![CDATA[]]></ccsiName>
+		<ccbaLcad>
+			
+	             
+	                 
+	                 
+	                     <![CDATA[서울특별시 ]]>
+	                 
+	             
+	         
+	         
+		</ccbaLcad>
+		<ccceName><![CDATA[]]></ccceName>
+		<ccbaPoss>
+                <![CDATA[]]>
+        </ccbaPoss>
+		<ccbaAdmin>
+               <![CDATA[]]>
+		</ccbaAdmin>
+		<ccbaCncl><![CDATA[Y]]></ccbaCncl>
+		<ccbaCndt><![CDATA[19911101]]></ccbaCndt>
+		<imageUrl></imageUrl>
+		<content><![CDATA[]]></content>
+</item>	
+</result>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+<result>	
+<ccbaKdcd>17</ccbaKdcd>
+<ccbaAsno>00940000</ccbaAsno>
+<ccbaCtcd>11</ccbaCtcd>
+<ccbaCpno>1271100940000</ccbaCpno>
+<longitude>0</longitude>
+<latitude>0</latitude>
+<item>	
+		<ccmaName><![CDATA[국가무형문화재]]></ccmaName>
+		<crltsnoNm>94</crltsnoNm>
+		<ccbaMnm1><![CDATA[벼루장]]></ccbaMnm1>
+		<ccbaMnm2><![CDATA[벼루匠]]></ccbaMnm2>
+		<gcodeName><![CDATA[무형유산]]></gcodeName>
+		<bcodeName><![CDATA[공예기술]]></bcodeName>
+		<mcodeName><![CDATA[석공예]]></mcodeName>
+		<scodeName><![CDATA[석공예]]></scodeName>
+		<ccbaQuan><![CDATA[]]></ccbaQuan>
+		<ccbaAsdt><![CDATA[19891201]]></ccbaAsdt>
+		<ccbaCtcdNm><![CDATA[서울특별시 ]]></ccbaCtcdNm>
+		<ccsiName><![CDATA[]]></ccsiName>
+		<ccbaLcad>
+			
+	             
+	                 
+	                 
+	                     <![CDATA[서울특별시 ]]>
+	                 
+	             
+	         
+	         
+		</ccbaLcad>
+		<ccceName><![CDATA[]]></ccceName>
+		<ccbaPoss>
+                <![CDATA[]]>
+        </ccbaPoss>
+		<ccbaAdmin>
+               <![CDATA[]]>
+		</ccbaAdmin>
+		<ccbaCncl><![CDATA[Y]]></ccbaCncl>
+		<ccbaCndt><![CDATA[19900720]]></ccbaCndt>
+		<imageUrl></imageUrl>
+		<content><![CDATA[]]></content>
+</item>	
+</result>
