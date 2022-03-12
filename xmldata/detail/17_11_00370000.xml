@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+<result>	
+<ccbaKdcd>17</ccbaKdcd>
+<ccbaAsno>00370000</ccbaAsno>
+<ccbaCtcd>11</ccbaCtcd>
+<ccbaCpno>1271100370000</ccbaCpno>
+<longitude>0</longitude>
+<latitude>0</latitude>
+<item>	
+		<ccmaName><![CDATA[국가무형문화재]]></ccmaName>
+		<crltsnoNm>37</crltsnoNm>
+		<ccbaMnm1><![CDATA[화장]]></ccbaMnm1>
+		<ccbaMnm2><![CDATA[靴匠]]></ccbaMnm2>
+		<gcodeName><![CDATA[]]></gcodeName>
+		<bcodeName><![CDATA[]]></bcodeName>
+		<mcodeName><![CDATA[]]></mcodeName>
+		<scodeName><![CDATA[]]></scodeName>
+		<ccbaQuan><![CDATA[]]></ccbaQuan>
+		<ccbaAsdt><![CDATA[19700722]]></ccbaAsdt>
+		<ccbaCtcdNm><![CDATA[서울특별시 ]]></ccbaCtcdNm>
+		<ccsiName><![CDATA[]]></ccsiName>
+		<ccbaLcad>
+			
+	             
+	                 
+	                 
+	                     <![CDATA[서울특별시 ]]>
+	                 
+	             
+	         
+	         
+		</ccbaLcad>
+		<ccceName><![CDATA[]]></ccceName>
+		<ccbaPoss>
+                <![CDATA[]]>
+        </ccbaPoss>
+		<ccbaAdmin>
+               <![CDATA[]]>
+		</ccbaAdmin>
+		<ccbaCncl><![CDATA[Y]]></ccbaCncl>
+		<ccbaCndt><![CDATA[19820205]]></ccbaCndt>
+		<imageUrl></imageUrl>
+		<content><![CDATA[]]></content>
+</item>	
+</result>

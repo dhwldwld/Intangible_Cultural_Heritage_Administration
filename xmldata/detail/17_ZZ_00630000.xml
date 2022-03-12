@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+<result>	
+<ccbaKdcd>17</ccbaKdcd>
+<ccbaAsno>00630000</ccbaAsno>
+<ccbaCtcd>ZZ</ccbaCtcd>
+<ccbaCpno>1279900630000</ccbaCpno>
+<longitude>0</longitude>
+<latitude>0</latitude>
+<item>	
+		<ccmaName><![CDATA[국가무형문화재]]></ccmaName>
+		<crltsnoNm>63</crltsnoNm>
+		<ccbaMnm1><![CDATA[북메우기]]></ccbaMnm1>
+		<ccbaMnm2><![CDATA[북메우기]]></ccbaMnm2>
+		<gcodeName><![CDATA[무형유산]]></gcodeName>
+		<bcodeName><![CDATA[공예기술]]></bcodeName>
+		<mcodeName><![CDATA[]]></mcodeName>
+		<scodeName><![CDATA[]]></scodeName>
+		<ccbaQuan><![CDATA[]]></ccbaQuan>
+		<ccbaAsdt><![CDATA[19800901]]></ccbaAsdt>
+		<ccbaCtcdNm><![CDATA[기타]]></ccbaCtcdNm>
+		<ccsiName><![CDATA[]]></ccsiName>
+		<ccbaLcad>
+			
+	             
+	                 
+	                 
+	                     <![CDATA[기타]]>
+	                 
+	             
+	         
+	         
+		</ccbaLcad>
+		<ccceName><![CDATA[]]></ccceName>
+		<ccbaPoss>
+                <![CDATA[]]>
+        </ccbaPoss>
+		<ccbaAdmin>
+               <![CDATA[]]>
+		</ccbaAdmin>
+		<ccbaCncl><![CDATA[Y]]></ccbaCncl>
+		<ccbaCndt><![CDATA[19950316]]></ccbaCndt>
+		<imageUrl></imageUrl>
+		<content><![CDATA[]]></content>
+</item>	
+</result>
