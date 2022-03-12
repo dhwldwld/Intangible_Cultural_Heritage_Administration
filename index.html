@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./resource/assets/font-awesome/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+        <link href="./resource/assets/bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./resource/css/style.css" rel="stylesheet">
+        <script src="./resource/assets/bootstrap/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+        <title>무형문화재관리원 누리집에 오신 것을 환영합니다. | 무형문화재관리원</title>
+    </head>
+    <body>
+        <!-- 헤더 영역 -->
+        <header id="header">
+            <div class="inner">
+                <a href="#" class="logo">
+                    <img
+                        src="./resource/img/logo/무형문화재관리원_국_좌우.png"
+                        alt="무형문화재관리원 로고"
+                        title="메인으로 이동">
+                </a>
+                <div class="menu-container">
+                    <!-- 유틸리티 메뉴 -->
+                    <div class="sub-menu">
+                        <ul class="menu">
+                            <li>
+                                <a href="#">로그인</a>
+                            </li>
+                            <li>
+                                <a href="#">회원가입</a>
+                            </li>
+                            <li>
+                                <a href="#">문의하기</a>
+                            </li>
+                            <li>
+                                <!-- 언어 선택 -->
+                                <div class="lan-dropdown">
+                                    <input type="checkbox" id="language">
+                                    <label for="language">LANGUAGE</label>
+                                    <ul class="lan-dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <li>
+                                            <a href="#">한국어</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">中文(简体)</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">日本語</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="main-menu">
+                        <li class="item">
+                            <div class="item-name"><a href="#">무형문화재관리원</a></div>
+                            <div class="item-contents">
+                                <div class="contents-menu">
+                                    <ul class="inner">
+                                        <li>
+                                            <a href="#">소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">일반현황</a>
+                                            <ul>
+                                                <li><a href="#">설립목적</a></li>
+                                                <li><a href="#">연혁</a></li>
+                                                <li><a href="#">역할</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">주요업무계획</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">조직 및 구성</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">전화번호</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="item-name"><a href="#">무형문화재 현황</a></div>
+                            <div class="item-contents">
+                                <div class="contents-menu">
+                                    <ul class="inner">
+                                        <li>
+                                            <a href="#">무형문화재 현황</a>
+                                            <ul>
+                                                <li><a href="#">전체 현황</a></li>
+                                                <li><a href="#">전통 공연·예술</a></li>
+                                                <li><a href="#">전통기술</a></li>
+                                                <li><a href="#">전통지식</a></li>
+                                                <li><a href="#">구전 전통 및 표현</a></li>
+                                                <li><a href="#">전통 생활관습</a></li>
+                                                <li><a href="#">의례·의식</a></li>
+                                                <li><a href="#">전통 놀이·무예</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="item-name"><a href="#">행사 안내</a></div>
+                            <div class="item-contents">
+                                <div class="contents-menu">
+                                    <ul class="inner">
+                                        <li>
+                                            <a href="#">공연</a>
+                                            <ul>
+                                                <li><a href="#">월간 공연 일정</a></li>
+                                                <li><a href="#">년간 공연 일정</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">전시</a>
+                                            <ul>
+                                                <li><a href="#">관람 안내</a></li>
+                                                <li><a href="#">전시실</a></li>
+                                                <li><a href="#">디지털 체험관</a></li>
+                                                <li><a href="#">기획 전시실</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">교육</a>
+                                            <ul>
+                                                <li><a href="#">전문 교육</a></li>
+                                                <li><a href="#">사회 교육</a></li>
+                                                <li><a href="#">연간 교육일정</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="item-name"><a href="#">전승지원</a></div>
+                            <div class="item-contents">
+                                <div class="contents-menu">
+                                    <ul class="inner">
+                                        <li>
+                                            <a href="#">공방</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">공예품 갤러리</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">전수교육관 현황</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="item-name"><a href="#">데이터 공개</a></div>
+                            <div class="item-contents">
+                                <div class="contents-menu">
+                                    <ul class="inner">
+                                        <li>
+                                            <a href="#">무형문화재 현황</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">월간/년간 공연현황</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">공방/공예품/전수교육관 사진 자료</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+                <label for="drawer-toggle" class="drawer-hamburger">
+                    <div id="openbtn-top"></div>
+                    <div id="openbtn-mid"></div>
+                    <div id="openbtn-bot"></div>
+                </label>
+                <div id="drawer">
+                    <div class="drawer-box">
+                        <ul class="drawer-main-menu">
+                            <li>
+                                <input type="checkbox" id="drawer-item-toggle1">
+                                <label for="drawer-item-toggle1">무형문화재관리원</label>
+                                <ul class="drawer-contents">
+                                    <li>
+                                        <a href="#">소개</a>
+                                    </li>
+                                    <li class="drawer-in-contents">
+                                        <a href="#">일반현황</a>
+                                        <ul>
+                                            <li><a href="#">설립목적</a></li>
+                                            <li><a href="#">연혁</a></li>
+                                            <li><a href="#">역할</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">주요업무계획</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">조직 및 구성</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">전화번호</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="drawer-item-toggle2">
+                                <label for="drawer-item-toggle2">무형문화재 현황</label>
+                                <ul class="drawer-contents">
+                                    <li class="drawer-in-contents">
+                                        <a href="#">무형문화재 현황</a>
+                                        <ul>
+                                            <li><a href="#">전체 현황</a></li>
+                                            <li><a href="#">전통 공연·예술</a></li>
+                                            <li><a href="#">전통기술</a></li>
+                                            <li><a href="#">전통지식</a></li>
+                                            <li><a href="#">구전 전통 및 표현</a></li>
+                                            <li><a href="#">전통 생활관습</a></li>
+                                            <li><a href="#">의례·의식</a></li>
+                                            <li><a href="#">전통 놀이·무예</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="drawer-item-toggle3">
+                                <label for="drawer-item-toggle3">행사 안내</label>
+                                <ul class="drawer-contents">
+                                    <li class="drawer-in-contents">
+                                        <a href="#">공연</a>
+                                        <ul>
+                                            <li><a href="#">월간 공연 일정</a></li>
+                                            <li><a href="#">년간 공연 일정</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="drawer-in-contents">
+                                        <a href="#">전시</a>
+                                        <ul>
+                                            <li><a href="#">관람 안내</a></li>
+                                            <li><a href="#">전시실</a></li>
+                                            <li><a href="#">디지털 체험관</a></li>
+                                            <li><a href="#">기획 전시실</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="drawer-in-contents">
+                                        <a href="#">교육</a>
+                                        <ul>
+                                            <li><a href="#">전문 교육</a></li>
+                                            <li><a href="#">사회 교육</a></li>
+                                            <li><a href="#">연간 교육일정</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="drawer-item-toggle4">
+                                <label for="drawer-item-toggle4">전승지원</label>
+                                <ul class="drawer-contents">
+                                    <li>
+                                        <a href="#">공방</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">공예품 갤러리</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">전수교육관 현황</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="drawer-item-toggle5">
+                                <label for="drawer-item-toggle5">데이터 공개</label>
+                                <ul class="drawer-contents">
+                                    <li>
+                                        <a href="#">무형문화재 현황</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">월간/년간 공연현황</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">공방/공예품/전수교육관 사진 자료</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="drawer-sub-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">로그인</a>
+                                </li>
+                                <li>
+                                    <a href="#">회원가입</a>
+                                </li>
+                                <li>
+                                    <a href="#">문의하기</a>
+                                </li>
+                                <li>
+                                    <!-- 언어 선택 -->
+                                    <div class="lan-dropdown">
+                                        <input type="checkbox" id="drawer-language">
+                                        <label for="drawer-language">LANGUAGE</label>
+                                        <ul class="lan-dropdown-menu">
+                                            <li>
+                                                <a href="#">한국어</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">English</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">中文(简体)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">日本語</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- 메인 영역 -->
+        <div id="main">
+            <!-- 비주얼 영역 -->
+            <section id="visual">
+                <div
+                    id="carouselExampleFade"
+                    class="carousel slide carousel-fade"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img
+                                src="./resource/img/visual/02.01.무형유산 디지털 체험관.jpg"
+                                class="d-block w-100"
+                                alt="무형유산 디지털 체험관 개관"
+                                title="무형유산 디지털 체험관 개관">
+                            <div class="carousel-caption d-none d-md-block">
+                                <span>무형유산 디지털 체험관 개관</span>
+                                <p>놀이한마당(AI,VR 체험)<br>아름다운 향연(포토존)<br>함께하는 장인 정신(꾸미기)<br>다면 영상관(3차원 입체영상)</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img
+                                src="./resource/img/visual/02.02.씨름.jpg"
+                                class="d-block w-100"
+                                alt="씨름, 분단을 넘어 세계를 잇다!"
+                                title="씨름, 분단을 넘어 세계를 잇다!">
+                            <div class="carousel-caption d-none d-md-block">
+                                <span>씨름, 분단을 넘어 세계를 잇다!</span>
+                                <p>유네스코 인류무형유산 등재 기념 특별전</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img
+                                src="./resource/img/visual/02.01.무형유산 디지털 체험관.jpg"
+                                class="d-block w-100"
+                                alt="무형유산 유튜브 영상 공모전"
+                                title="무형유산 유튜브 영상 공모전">
+                            <div class="carousel-caption d-none d-md-block">
+                                <span>무형유산 유튜브 영상 공모전</span>
+                                <p>본선 진출작 발표<br>본선 작품 상영 및 시상식 : 4월 30일(일) 무형문화재관리원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <!-- 새 소식 영역 (팝업 포함) -->
+            <section id="news">
+                <div class="inner">
+                    <div class="content-title">
+                        <h3>새 소식</h3>
+                        <p>국립무형유산원의 새소식을 제공합니다.</p>
+                    </div>
+                    <div class="layout">
+                        <div>
+                            <div class="news-box">
+                                <ul class="select-list">
+                                    <!-- 새 소식 영역 - 공지사항 -->
+                                    <li class="select">
+                                        <input type="radio" name="select-tab" id="notice" checked>
+                                        <label for="notice">공지사항</label>
+                                        <div class="select-contents">
+                                            <ul class="contents-list">
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">『국립문화재연구소 연구윤리에 관한 규정』 전부개정(안) 행정예고</span>
+                                                        <span class="date">2020-05-12</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">2020년 지역문화유산 활용 전문인력 교육(야행) 안내</span>
+                                                        <span class="date">2020-05-07</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">2020년도 상반기 모범공무원 정부포상 추천후보자 공개검증 안내</span>
+                                                        <span class="date">2020-05-04</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">국립문화재연구소 보존과학연구실 공무직 채용 공고</span>
+                                                        <span class="date">2020-05-01</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">2020년도 『청년 유네스코 세계유산 지킴이』모집 안내</span>
+                                                        <span class="date">2020-04-27</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <!-- 새 소식 영역 - 보도자료 -->
+                                    <li class="select">
+                                        <input type="radio" name="select-tab" id="report">
+                                        <label for="report">보도자료</label>
+                                        <div class="select-contents">
+                                            <ul class="contents-list">
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">국립무형유산원, 제2 상설전시실 재개관과 무형유산 디지털 체험관 개관</span>
+                                                        <span class="date">2020-05-06</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">문화재청 소관 실내관람시설 6일(수)부터 재개관</span>
+                                                        <span class="date">2020-05-01</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">‘씨름’특집 다큐멘터리, 제53회 휴스턴 국제영화제 금상 수상</span>
+                                                        <span class="date">2020-04-28</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">국립고궁박물관·궁능 실내 관람시설 등 휴관 추가 연장</span>
+                                                        <span class="date">2020-04-23</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">문화재청, 궁중문화축전ㆍ종묘대제 하반기 개최</span>
+                                                        <span class="date">2020-04-13</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="news-box">
+                                <ul class="select-list">
+                                    <!-- 새 소식 영역 - 채용정보 -->
+                                    <li class="select">
+                                        <input type="radio" name="select-tab2" id="job" checked>
+                                        <label for="job">채용정보</label>
+                                        <div class="select-contents">
+                                            <ul class="contents-list">
+                                                <li>
+                                                    진행중인 채용정보가 없습니다.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <!-- 새 소식 영역 - 입찰정보 -->
+                                    <li class="select">
+                                        <input type="radio" name="select-tab2" id="bid">
+                                        <label for="bid">입찰정보</label>
+                                        <div class="select-contents">
+                                            <ul class="contents-list">
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">
+                                                            <span class="type-badge">용역</span>
+                                                            전통무용 분야 종목의 국가무형문화재 지정을 위한 기초조사 연구용역
+                                                        </span>
+                                                        <span class="date">2020-05-01</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">
+                                                            <span class="type-badge">물품구매</span>
+                                                            무형문화재관리원 전산실 스토리지 용량 증설 관련 물품구매
+                                                        </span>
+                                                        <span class="date">2020-04-30</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="text">
+                                                            <span class="type-badge">공사</span>
+                                                            무형문화재관리원 주차장 증측 공사
+                                                        </span>
+                                                        <span class="date">2020-04-21</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        
+                                                        <span class="text">
+                                                            <span class="type-badge">용역</span>
+                                                            2020년 전수교육관 활성화 사업 모니터링 용역
+                                                        </span>
+                                                        <span class="date">2020-04-20</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        
+                                                        <span class="text">
+                                                            <span class="type-badge">용역</span>
+                                                            세계유산 영향평가 도입방안 연구
+                                                        </span>
+                                                        <span class="date">2020-04-27</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 팝업 영역 -->
+                        <div class="popup">
+                            <div class="popup-title">팝업존</div>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner" data-bs-interval="2000">
+                                  <div class="carousel-item active">
+                                    <div class="carousel-caption slide slide1">
+                                        <span>무형문화재관리원 공연 중지 안내</span>
+                                        <p>
+                                            공연장 증축 공사로 인해 2021년 7월 부터 현장 공연은 진행하지 않습니다.<br>
+                                            향후 공연일정은 증축공사 준공 시기에 따라 변동될 수 있습니다.
+                                        </p>
+                                    </div>
+                                    <img src="./resource/img/popup/popup01.jpg" class="d-block w-100" alt="무형문화재관리원 공연 중지 안내" title="무형문화재관리원 공연 중지 안내">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="carousel-caption slide">
+                                        <p>
+                                            국민의 기대 그이상!<br>
+                                            적극행정 울림<br>
+                                            인사혁신처
+                                        </p>
+                                    </div>
+                                    <img src="./resource/img/popup/popup02.jpg" class="d-block w-100">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="carousel-caption slide">
+                                        <p>
+                                            내 삶을 바꾸는 정책참여<br>
+                                            정책참여플랫폼<br>
+                                            국민생각함<br>
+                                            국민권익위원회
+                                        </p>
+                                    </div>
+                                    <img src="./resource/img/popup/popup03.jpg" class="d-block w-100">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="carousel-caption slide">
+                                        <p>
+                                            문화재를 지키는 또 하나의방법<br>
+                                            문화재 훼손신소: 1661-9112<br>
+                                            도난ㆍ도굴신고: 080-290-8000
+                                        </p>
+                                    </div>
+                                    <img src="./resource/img/popup/popup04.jpg" class="d-block w-100">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 행사 영역 -->
+            <section id="event">
+                <div class="inner">
+                    <div class="content-title">
+                        <h3>행사</h3>
+                        <p>국립무형유산원의 행사를 안내해 드립니다.</p>
+                    </div>
+                    <div class="layout">
+                        <div class="event-card">
+                            <h5 class="card-title">문화가 있는 날1 - 신노이</h5>
+                            <span class="type-badge mb-2">공연</span>
+                            <p class="card-text">얼쑤마루 대공연장</p>
+                            <p class="card-text">2021년 5월 27일 D-14</p>
+                            <a href="#">상세내용 보기</a>
+                        </div>
+                        <div class="event-card">
+                            <h5 class="card-title">탈놀이, 신명에 실어 시름을 날리다 특별전</h5>
+                            <span class="type-badge mb-2">전시</span>
+                            <p class="card-text">장소: 상설전시실1</p>
+                            <p class="card-text">일시: 2021년 5월 27일 ~</p>
+                            <a href="#">상세내용 보기</a>
+                        </div>
+                        <div class="event-card">
+                            <h5 class="card-title">문화가 있는 날2 - 국한유래 무형유산 공연</h5>
+                            <span class="type-badge mb-2">공연</span>
+                            <p class="card-text">장소: 얼쑤마루 대공연장</p>
+                            <p class="card-text">일시: 2021년 5월 24일 D-11</p>
+                            <a href="#">상세내용 보기</a>
+                        </div>
+                        <div class="event-card">
+                            <h5 class="card-title">유네스코 인류무형유산 등재 기념 특별전, 씨름</h5>
+                            <span class="type-badge mb-2">전시</span>
+                            <p class="card-text">장소: 기획전시실</p>
+                            <p class="card-text">일시: 2021년 4월 1일 ~</p>
+                            <a href="#">상세내용 보기</a>
+                        </div>
+                        <div class="event-card">
+                            <h5 class="card-title">전통예능 갈래</h5>
+                            <span class="type-badge mb-2">공연</span>
+                            <p class="card-text">장소: 얼쑤마루 대공연장</p>
+                            <p class="card-text">일시: 2021년 7월 11일 D-59</p>
+                            <a href="#">상세내용 보기</a>
+                        </div>
+                        <div class="event-card">
+                            <h5 class="card-title">장인의 손길, 일상을 꾸미다 특별전</h5>
+                            <span class="type-badge mb-2">전시</span>
+                            <p class="card-text">장소: 기획전시실</p>
+                            <p class="card-text">일시: 2020년 6월 30일 ~</p>
+                            <a href="#">상세내용 보기</a>
+                        </div>
+                        <div class="event-card">
+                            <h5 class="card-title">2019 국립무형유산원 무형유산 체험교육</h5>
+                            <span class="type-badge mb-2">교육</span>
+                            <p class="card-text">장소: 전승마루 공예전승실1</p>
+                            <p class="card-text">일시: 매주 토/일요일</p>
+                            <a href="#" class="card-more">상세내용 보기</a>
+                        </div>
+                        <div class="event-card">
+                            <h5 class="card-title">문화가 있는 날3 - 신박서클</h5>
+                            <span class="type-badge mb-2">공연</span>
+                            <p class="card-text">장소: 얼쑤마루 대공연장</p>
+                            <p class="card-text">일시: 2021년 7월 29일 D-77</p>
+                            <a href="#" class="card-more">상세내용 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 유네스코 인류무형유산(연도별 탭) 영역 -->
+            <section id="timeline">
+                <div class="inner">
+                    <div class="content-title">
+                        <h3>유네스코 인류무형유산</h3>
+                    </div>
+                    <div class="timeline-container">
+                        <div class="timeline-wrapper">
+                            <div class="timeline-box left">
+                                <div class="content">
+                                    <span>2001</span>
+                                    <a href="#">종묘제례 및 종묘 제례악</a>
+                                </div>
+                            </div>
+                            <div class="timeline-box right">
+                                <div class="content">
+                                      <span>2003</span>
+                                      <a href="#">판소리</a>
+                                </div>
+                            </div>
+                            <div class="timeline-box left">
+                                  <div class="content">
+                                    <span>2005</span>
+                                    <a href="#">강릉단오제</a>
+                                  </div>
+                            </div>
+                            <div class="timeline-box right">
+                                  <div class="content">
+                                    <span>2009</span>
+                                    <a href="#">강강술래</a>
+                                    <a href="#">남사당놀이</a>
+                                    <a href="#">남사당놀이</a>
+                                    <a href="#">영산재</a>
+                                    <a href="#">제주칠머리당 영등굿</a>
+                                    <a href="#">처용무</a>
+                                  </div>
+                            </div>
+                            <div class="timeline-box left">
+                                  <div class="content">
+                                      <span>2010</span>
+                                      <a href="#">가곡</a>
+                                      <a href="#">대목장</a>
+                                      <a href="#">매사냥</a>
+                                  </div>
+                            </div>
+                            <div class="timeline-box right">
+                                  <div class="content">
+                                      <span>2011</span>
+                                      <a href="#">줄타기</a>
+                                      <a href="#">택견</a>
+                                      <a href="#">한산모시짜기</a>
+                                  </div>
+                            </div>
+                            <div class="timeline-box left">
+                                  <div class="content">
+                                    <span>2012</span>
+                                    <a href="#">아리랑</a>
+                                  </div>
+                            </div>
+                            <div class="timeline-box right">
+                                  <div class="content">
+                                    <span>2013</span>
+                                    <a href="#">김장문화</a>
+                                  </div>
+                            </div>
+                            <div class="timeline-box left">
+                                  <div class="content">
+                                    <span>2014</span>
+                                    <a href="#">농악</a>
+                                  </div>
+                            </div>
+                            <div class="timeline-box right">
+                                  <div class="content">
+                                    <span>2015</span>
+                                    <a href="#">줄다리기</a>
+                                  </div>
+                            </div>
+                            <div class="timeline-box left">
+                                  <div class="content">
+                                    <span>2016</span>
+                                    <a href="#">제주해녀문화</a>
+                                  </div>
+                            </div>
+                            <div class="timeline-box right">
+                                  <div class="content">
+                                    <span>2018</span>
+                                    <a href="#">씨름</a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 배너 영역 -->
+            <div id="banner">
+                <div class="inner">
+                    <div class="banner-box">
+                        <div class="banner-list">
+                            <a href="https://www.cha.go.kr/" target="_blank"><img src="./resource/img/07.01.문화재청.png" alt="문화재청" title="문화재청 사이트로 이동(새창)"></a>
+                            <a href="https://www.nihc.go.kr/" target="_blank"><img src="./resource/img/07.02.국립무형유산원.png" alt="국립무형유산원" title="국립무형유산원 사이트로 이동(새창)"></a>
+                            <a href="http://www.chf.or.kr/" target="_blank"><img src="./resource/img/07.03.한국문화재재단.png" alt="한국문화재재단" title="한국문화재재단 사이트로 이동(새창)"></a>
+                            <a href="http://www.gugak.go.kr/" target="_blank"><img src="./resource/img/07.04.국립국악원.png" alt="국립국악원" title="국립국악원 사이트로 이동(새창)"></a>
+                            <a href="https://www.ntok.go.kr/" target="_blank"><img src="./resource/img/07.05.국립극장.png" alt="국립극장" title="국립극장 사이트로 이동(새창)"></a>
+                            <a href="https://www.arko.or.kr/" target="_blank"><img src="./resource/img/07.06.한국문화예술위원회.png" alt="한국문화예술위원회" title="한국문화예술위원회 사이트로 이동(새창)"></a>
+                            <a href="http://www.nfm.go.kr/" target="_blank"><img src="./resource/img/07.07.국립민속박물관.png" alt="국립민속박물관" title="국립민속박물관 사이트로 이동(새창)"></a>
+                            <a href="https://www.ichcap.org/" target="_blank"><img src="./resource/img/07.08.유네스코아태무형유산센터.png" alt="유네스코아태무형유산센터" title="유네스코아태무형유산센터 사이트로 이동(새창)"></a>
+                            <a href="http://www.koreamusic.org/" target="_blank"><img src="./resource/img/07.09.한국전통소리문화.png" alt="한국전통소리문화" title="한국전통소리문화 사이트로 이동(새창)"></a>
+                            <a href="https://www.unesco.or.kr/" target="_blank"><img src="./resource/img/07.10.유네스코한국위원회.png" alt="유네스코한국위원회" title="유네스코한국위원회"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 푸터 영역 -->
+        <footer id="footer">
+            <div class="inner">
+                <img src="./resource/img/logo/무형문화재관리원_국_좌우.png" alt="무형문화재관리원" title="무형문화재관리원 로고">
+                <div class="footer-txt">
+                    <div class="footer-link">
+                        <a href="#">이용안내</a>
+                        <div class="divider"></div>
+                        <a href="#">개인정보 처리방침</a>
+                        <div class="divider"></div>
+                        <a href="#">저작권 보호정책</a>
+                        <div class="divider"></div>
+                        <a href="#">도로명 주소안내</a>
+                        <div class="divider"></div>
+                        <a href="#">사이트오류 신고</a>
+                    </div>
+                    <address>
+                        인천시 부평구 무네미로 448번길 77 한국산업인력공단 글로벌숙련기술진흥원
+                        <br>
+                        COPYRIGHTⓒ 2016 HRDKOREA
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
