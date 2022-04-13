@@ -1,4 +1,4 @@
-<? 
+<?php
     include('lib/lib.php');
 
     $dir = "xmldata/detail";

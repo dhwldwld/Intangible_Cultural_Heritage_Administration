@@ -1,4 +1,4 @@
-<? 
+<?php
     include('lib/lib.php');
 
 	$xml = simplexml_load_file('xmldata/nihList.xml');

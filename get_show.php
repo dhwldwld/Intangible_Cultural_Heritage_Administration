@@ -1,4 +1,4 @@
-<?
+<?php
     include ('lib/lib.php');
 
     $year = $_POST['year'];

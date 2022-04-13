@@ -1,4 +1,4 @@
-<?
+<?php
     $bcodeName = URLDecode($_GET['bcodeName']);
 ?>
 
@@ -54,7 +54,7 @@
 <div class="container-lg">
     <div class="d-flex justify-content-between">
         <h3 class="px-5 pt-5 d-inlineblock">무형문화재 현황</h3>
-        <p class="pe-5 pt-5">홈 > 무형문화재 현황 <? if ($bcodeName) { echo '> '.$bcodeName; } ?></p>
+        <p class="pe-5 pt-5">홈 > 무형문화재 현황 <?php if ($bcodeName) { echo '> '.$bcodeName; } ?></p>
     </div>
     <hr class="m-2">
     <div class="d-flex justify-content-between px-3 align-items-center">

@@ -3,7 +3,7 @@
         height: 180px;
     }
 </style>
-<?
+<?php
     if(isset($_GET["year"]) && $_GET["year"] && isset($_GET["month"]) && $_GET["month"]) {
 		$year = $_GET["year"]; //현재 년도
 		$month = $_GET["month"];  //현재 월
