@@ -20,10 +20,10 @@
         <p>1/20p</p>
         <ul class="nav nav-pills my-1">
             <li class="nav-item">
-                <a href="#cultural_album" class="nav-link active" data-bs-toggle="pill">앨범</a>
+                <a href="#cultural-album" class="nav-link active" data-bs-toggle="pill">앨범</a>
             </li>
             <li class="nav-item">
-                <a href="#cultural_list" class="nav-link" data-bs-toggle="pill">목록</a>
+                <a href="#cultural-list" class="nav-link" data-bs-toggle="pill">목록</a>
             </li>
         </ul>
     </div>
